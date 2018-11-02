@@ -15,7 +15,7 @@ public class AccesoADatos {
         Alumno alumno1 = new Alumno("Juan Lopez", LocalDate.of(2010,Month.DECEMBER, 12), true );
     
         Conexion con = new Conexion();
-        
+        //Creamos aulmno data
         AlumnoData ad = new AlumnoData(con);
         
         ad.guardarAlumno(alumno1);
